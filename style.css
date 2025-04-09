@@ -1,0 +1,57 @@
+.hero {
+    background-color: #1F2937;
+}
+
+.hero-text {
+    color: #F9FAFB;
+}
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo {
+    width: 18px;
+    height: auto;
+    color: #F9FAFB;
+}   
+button {
+    background-color: #3882f6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c6cd3;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Optional: Adds spacing between the boxes */
+}
+
+.info-boxes .info-box {
+    background-color: #E5E7EB; /* Light gray background for the box */
+    width: 150px; /* Set a fixed width for the square */
+    height: 150px; /* Set the same height to make it a square */
+    border: 2px solid #3882f6; /* Blue border */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align text to the bottom */
+    align-items: center; /* Center text horizontally */
+    border-radius: 0; /* Remove rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    text-align: center; /* Centers the text inside the box */
+    padding: 10px; /* Adjust padding for spacing */
+}
+
+.quote{
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Adjust font size */
+    color: #374151; /* Dark gray text color */
+}
